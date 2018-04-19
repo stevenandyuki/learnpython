@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+
+from math import sqrt
+def quadratic(a,b,c):
+    if not isinstance(a and b and c,(int,float)) :
+        raise TypeError('bad operand type')
+    sum=pow(b,2)-(4*a*c)
+    if sum<0:
+        print "无解"
+    else :
+     x=(sqrt(sum)-b)/2*a
+     y=(-sqrt(sum)-b)/2*a
+     return x,y
+
+print quadratic(1,2,-8)
+
+
