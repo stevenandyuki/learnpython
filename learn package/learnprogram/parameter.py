@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+'parameter test'
 def product(x, *y):
     sum=1
     for n in y:

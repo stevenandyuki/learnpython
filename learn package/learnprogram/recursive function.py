@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+'recursive function test'
 def move(n,A,B,C):
     if n==1:
         print A,"->",C
